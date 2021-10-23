@@ -108,3 +108,7 @@ SYN to ::1:23 from ::1
 SYN to ::1:25 from ::1
 SYN to ::1:445 from ::1
 ```
+
+# Credit
+
+This program is a direct derivative of the [pcadpdump](https://github.com/google/gopacket/blob/master/examples/pcapdump/main.go) example code in gopacket, which is in turn subject to BSD licensed under BSD (see https://github.com/google/gopacket/blob/master/LICENSE).

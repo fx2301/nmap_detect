@@ -1,3 +1,8 @@
+// This code is a derivative of https://github.com/google/gopacket/blob/master/examples/pcapdump/main.go which is BSD licensed:
+// https://github.com/google/gopacket/blob/master/LICENSE
+
+// Copyright 2012 Google, Inc. All rights reserved.
+
 package main
 
 import (
