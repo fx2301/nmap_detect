@@ -1,11 +1,24 @@
 # Setup
 
+Fetch dependencies using `apt` (PRs welcome for concise instructions for other package managers):
 ```
 sudo apt install libpcap-dev
-git clone ...
+```
+
+```
+git clone https://github.com/fx2301/nmap_detect
 cd nmap_detect
+```
+
+Build and grant packet capture permissions:
+```
 go build nmap_detect.go
 sudo setcap cap_net_raw,cap_net_admin=eip ./nmap_detect
+```
+
+Or, directly run as root:
+```
+sudo go run nmap_detect.go
 ```
 
 # Examples
